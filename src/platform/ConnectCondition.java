@@ -11,8 +11,7 @@ import platform.Sentense.Simple.Operator;
 
 public class ConnectCondition {
 	//120組存在するうち、3+78=81組つまり３分の２が仲間同士である。
-	//占い師など自分のみ知ってるコンディションがある場合は、Playerクラスにその知らない情報だけ書いたリストを作って、
-	//わあああーい
+	//占い師など自分のみ知ってるコンディションがある場合は、Playerクラスにその知らない情報だけ書いたリストを作って
 
 	public static final int vote = 0;
 	public static final int voted = 1;
