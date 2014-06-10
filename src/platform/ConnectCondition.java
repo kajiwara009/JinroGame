@@ -12,7 +12,7 @@ import platform.Sentense.Simple.Operator;
 public class ConnectCondition {
 	//120組存在するうち、3+78=81組つまり３分の２が仲間同士である。
 	//占い師など自分のみ知ってるコンディションがある場合は、Playerクラスにその知らない情報だけ書いたリストを作って、
-	//
+	//わあああーい
 
 	public static final int vote = 0;
 	public static final int voted = 1;
@@ -23,7 +23,7 @@ public class ConnectCondition {
 */	public static final int request_Inspect = 4;
 	public static final int requested_Inspect = 5;
 	public static final int comingOutSameRole = 6;
-	
+
 	public static final int inspect = 7;//-1黒 1白
 	public static final int inspected = 8;//-1黒 1白
 	public static final int tell = 9;
@@ -109,7 +109,7 @@ public class ConnectCondition {
 		HashMap<Names, Double> answers = new HashMap<>();
 		answers.put(opponent.getName(), 1.0);
 		for(Map.Entry<Names, Integer[]> set: condition.entrySet()){
-			
+
 			if(set.getKey() == opponent.getName()) continue;
 			LearningData_percentage[] boolPer = null;
 			LearningData_percentage[][] switchPer = null;
